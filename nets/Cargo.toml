@@ -1,0 +1,21 @@
+[package]
+name = "marina-nets"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+description = "The networks compiled into Marina, pinned by the engine's nets.toml"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/akhileshsharma99/marina"
+publish = false
+
+[dependencies]
+
+[build-dependencies]
+serde = { version = "1.0.229", features = ["derive"] }
+sha2 = "0.10"
+toml = "0.8"
+
+[features]
+# Compile the networks the engine's `nets.toml` marks `embed = true` into the crate (fetched at build
+# time from the `nets` release at their pinned revisions, or from $MARINA_NETS_DIR; hashes checked).
+embedded = []

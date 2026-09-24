@@ -1,0 +1,7 @@
+/target
+/ab/
+ab-*.pgn
+*.log
+*.npz
+*.safetensors
+.DS_Store

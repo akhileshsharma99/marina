@@ -1,0 +1,117 @@
+name: CI
+
+# Format, lint, build-and-test, the Metal backend on macOS and the CUDA build run as
+# parallel jobs; each builds from this tree alone, with the embedded networks fetched from
+# the `nets` release.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  fmt:
+    name: Format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@6bed0761d98439e5a578e2877258200ad565ba87 # stable as of 2026-09
+        with:
+          components: rustfmt
+      - run: cargo fmt --all --check
+
+  clippy:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@6bed0761d98439e5a578e2877258200ad565ba87 # stable as of 2026-09
+        with:
+          components: clippy
+      - uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2.9.2
+      - uses: ./.github/actions/fetch-nets
+        with:
+          token: ${{ github.token }}
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libopenblas-dev
+      # Every feature that builds without a CUDA toolkit; `cuda` is linted in its own job.
+      - run: cargo clippy --all-targets --features openblas --locked -- -D warnings
+
+  test:
+    name: Build and test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@6bed0761d98439e5a578e2877258200ad565ba87 # stable as of 2026-09
+      - uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2.9.2
+      - uses: ./.github/actions/fetch-nets
+        with:
+          token: ${{ github.token }}
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libopenblas-dev
+      # cargo test includes the encoder against the embedded networks' golden vectors;
+      # verify runs the CPU backend on them.
+      - run: cargo test --release --features openblas --locked
+      - run: cargo run --release --features openblas --locked -- verify --weights nano --backend cpu
+      - run: cargo run --release --features openblas --locked -- verify --weights small --backend cpu --limit 256
+
+  metal:
+    name: Metal (macOS)
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@6bed0761d98439e5a578e2877258200ad565ba87 # stable as of 2026-09
+        with:
+          components: clippy
+      - uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2.9.2
+      - uses: ./.github/actions/fetch-nets
+        with:
+          token: ${{ github.token }}
+      - run: cargo clippy --all-targets --locked -- -D warnings
+      # The Apple silicon runners expose a Metal device; the golden vectors check the
+      # kernels against the CPU reference.
+      - run: cargo run --release --locked -- verify --weights nano --backend metal
+      - run: cargo run --release --locked -- verify --weights small --backend metal --limit 128
+
+  cuda:
+    name: CUDA build
+    runs-on: ubuntu-latest
+    container:
+      image: nvidia/cuda:12.8.1-devel-ubuntu24.04
+    env:
+      CUDA_ROOT: /usr/local/cuda
+    steps:
+      # git before the checkout, so it is a real clone and not a tarball.
+      - run: apt-get update && apt-get install -y --no-install-recommends curl ca-certificates build-essential pkg-config libopenblas-dev git
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@6bed0761d98439e5a578e2877258200ad565ba87 # stable as of 2026-09
+        with:
+          components: clippy
+      - uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2.9.2
+        with:
+          key: cuda
+      - uses: ./.github/actions/fetch-nets
+        with:
+          token: ${{ github.token }}
+      # Compiles the kernels with nvcc and links against cuBLASLt/driver stubs; no GPU is
+      # needed to build, only to run.
+      - run: cargo clippy --all-targets --features cuda,openblas --locked -- -D warnings
+      - run: cargo build --release --features cuda,openblas --locked

@@ -1,0 +1,58 @@
+name: Fetch networks
+description: >-
+  Download the networks nets.toml pins from the `nets` release into a directory laid out as
+  <name>/model.json, model.safetensors, vectors.npz and export it as MARINA_NETS_DIR, so
+  nets/build.rs copies them instead of downloading; cached on the nets.toml hash.
+inputs:
+  token:
+    description: Token that can read the releases of `repo`
+    required: true
+  repo:
+    description: Repository whose `nets` release holds the networks
+    default: akhileshsharma99/marina
+  nets-toml:
+    description: Path to nets.toml
+    default: nets.toml
+runs:
+  using: composite
+  steps:
+    - id: cache
+      uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
+      with:
+        path: ${{ runner.temp }}/marina-nets
+        key: marina-nets-${{ inputs.repo }}-${{ hashFiles(inputs.nets-toml) }}
+    - if: steps.cache.outputs.cache-hit != 'true'
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+        NETS_REPO: ${{ inputs.repo }}
+        NETS_TOML: ${{ inputs.nets-toml }}
+      run: |
+        set -euo pipefail
+        if ! command -v gh >/dev/null; then
+          # Containers without gh: a pinned release tarball, checked against its checksum.
+          v=2.101.0
+          sum=9bca2d1c16825f109907a23307628a2f0698fbf99662b73a5cf0b020293072b8
+          curl -fsSL --proto '=https' -o /tmp/gh.tar.gz "https://github.com/cli/cli/releases/download/v${v}/gh_${v}_linux_amd64.tar.gz"
+          echo "$sum  /tmp/gh.tar.gz" | sha256sum -c -
+          tar -xzf /tmp/gh.tar.gz -C /tmp
+          install -m 755 "/tmp/gh_${v}_linux_amd64/bin/gh" /usr/local/bin/gh
+        fi
+        dir="$RUNNER_TEMP/marina-nets"; mkdir -p "$dir"
+        # Every [nets.<name>] with embed = true, and its revision.
+        awk '/^\[nets\./{gsub(/[\[\]]/,""); sub(/^nets\./,""); name=$0} /^revision/{gsub(/"/,""); rev=$3} /^embed *= *true/{print name, rev}' "$NETS_TOML" |
+        while read -r name rev; do
+          mkdir -p "$dir/$name"
+          for f in model.json model.safetensors vectors.npz; do
+            # The first push of a release lands a minute before its networks are promoted
+            # to the nets release; wait for them rather than fail the push's CI.
+            for attempt in 1 2 3 4 5 6; do
+              gh release download nets --repo "$NETS_REPO" --pattern "$name-$rev.$f" --output "$dir/$name/$f" --clobber && break
+              [ "$attempt" = 6 ] && { echo "$name-$rev.$f is not on the nets release of $NETS_REPO" >&2; exit 1; }
+              sleep 30
+            done
+          done
+        done
+        ls -la "$dir"/*
+    - shell: bash
+      run: echo "MARINA_NETS_DIR=$RUNNER_TEMP/marina-nets" >> "$GITHUB_ENV"

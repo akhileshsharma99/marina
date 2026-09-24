@@ -1,0 +1,198 @@
+name: Release
+
+# Builds the release binaries when a release is published (releases and their tags are
+# created by release-please, with notes from the CHANGELOG) and uploads them
+# as its assets. Every binary embeds the networks; the CUDA build also loads the driver at
+# run time and falls back to the CPU without one.
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing release tag to build assets for"
+        required: true
+
+permissions: {}
+
+env:
+  CARGO_TERM_COLOR: always
+  TAG: ${{ github.event.release.tag_name || inputs.tag }}
+
+jobs:
+  build:
+    # Version releases only: the `nets` and `games` releases are bins, not engine versions.
+    if: ${{ startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
+    name: ${{ matrix.asset }}
+    runs-on: ${{ matrix.os }}
+    permissions:
+      contents: write
+      id-token: write
+      attestations: write
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            target: x86_64-unknown-linux-gnu
+            asset: marina-linux-x64
+            rustflags: "-C target-cpu=x86-64-v3 -C strip=symbols"
+          - os: ubuntu-latest
+            target: aarch64-unknown-linux-gnu
+            asset: marina-linux-arm64
+            rustflags: "-C strip=symbols"
+            linker: aarch64-linux-gnu-gcc
+            apt: gcc-aarch64-linux-gnu libc6-dev-arm64-cross
+          - os: macos-latest
+            target: aarch64-apple-darwin
+            asset: marina-macos-arm64
+            rustflags: "-C strip=symbols"
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+            asset: marina-windows-x64.exe
+            rustflags: "-C target-cpu=x86-64-v3"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ env.TAG }}
+          persist-credentials: false
+      - if: matrix.apt
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ${{ matrix.apt }}
+      - uses: dtolnay/rust-toolchain@6bed0761d98439e5a578e2877258200ad565ba87 # stable as of 2026-09
+        with:
+          targets: ${{ matrix.target }}
+      - uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2.9.2
+        with:
+          key: ${{ matrix.target }}
+      - uses: ./.github/actions/fetch-nets
+        with:
+          token: ${{ github.token }}
+      - name: Build
+        shell: bash
+        env:
+          RUSTFLAGS: ${{ matrix.rustflags }}
+        run: |
+          if [ -n "${{ matrix.linker }}" ]; then
+            # The linker for Rust, and the C compiler for the C dependencies (zstd).
+            export CARGO_TARGET_AARCH64_UNKNOWN_LINUX_GNU_LINKER="${{ matrix.linker }}"
+            export CC_aarch64_unknown_linux_gnu="${{ matrix.linker }}"
+            export AR_aarch64_unknown_linux_gnu=aarch64-linux-gnu-ar
+          fi
+          cargo build --release --locked --target ${{ matrix.target }}
+      - name: Smoke test
+        if: matrix.target != 'aarch64-unknown-linux-gnu'
+        shell: bash
+        run: |
+          bin="target/${{ matrix.target }}/release/marina"
+          [ -f "$bin" ] || bin="$bin.exe"
+          "$bin" --version
+          printf 'uci\nisready\nposition startpos\ngo nodes 64\nquit\n' | "$bin" | grep -E "^(uciok|readyok|bestmove)"
+      - name: Upload
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          bin="target/${{ matrix.target }}/release/marina"
+          [ -f "$bin" ] || bin="$bin.exe"
+          cp "$bin" "${{ matrix.asset }}"
+          sha256sum "${{ matrix.asset }}" > "${{ matrix.asset }}.sha256" 2>/dev/null || shasum -a 256 "${{ matrix.asset }}" > "${{ matrix.asset }}.sha256"
+          gh release upload "$TAG" "${{ matrix.asset }}" "${{ matrix.asset }}.sha256" --repo "$GITHUB_REPOSITORY"
+      - uses: actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a # v3.0.0
+        with:
+          subject-path: ${{ matrix.asset }}
+
+  image:
+    # ghcr.io/akhileshsharma99/marina:<version> from the CUDA binary just uploaded; :latest
+    # follows full releases only.
+    name: container image
+    needs: cuda
+    # Version releases only: the `nets` and `games` releases are bins, not engine versions.
+    if: ${{ startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ env.TAG }}
+          persist-credentials: false
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download "$TAG" --repo "$GITHUB_REPOSITORY" --pattern "marina-linux-x64-cuda*"
+          sha256sum -c marina-linux-x64-cuda.sha256
+          mv marina-linux-x64-cuda marina
+          chmod +x marina
+      - uses: docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9 # v3.7.0
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ github.token }}
+      - id: meta
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          image="ghcr.io/${GITHUB_REPOSITORY,,}"
+          tags="$image:${TAG#v}"
+          if [ "$(gh release view "$TAG" --repo "$GITHUB_REPOSITORY" --json isPrerelease --jq .isPrerelease)" = "false" ]; then
+            tags="$tags,$image:latest"
+          fi
+          echo "tags=$tags" >> "$GITHUB_OUTPUT"
+      - uses: docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8 # v6.19.2
+        with:
+          context: .
+          target: runtime
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+
+  cuda:
+    # Version releases only: the `nets` and `games` releases are bins, not engine versions.
+    if: ${{ startsWith(github.event.release.tag_name || inputs.tag, 'v') }}
+    name: marina-linux-x64-cuda
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+      attestations: write
+    container:
+      image: nvidia/cuda:12.8.1-devel-ubuntu24.04
+    env:
+      CUDA_ROOT: /usr/local/cuda
+    steps:
+      # git before the checkout, so it is a real clone and not a tarball.
+      - run: apt-get update && apt-get install -y --no-install-recommends curl ca-certificates build-essential pkg-config git
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ env.TAG }}
+          persist-credentials: false
+      - uses: dtolnay/rust-toolchain@6bed0761d98439e5a578e2877258200ad565ba87 # stable as of 2026-09
+      - uses: Swatinem/rust-cache@6323deb102c322ba6fcbdcafc7e3dddab59af2b6 # v2.9.2
+        with:
+          key: cuda
+      - uses: ./.github/actions/fetch-nets
+        with:
+          token: ${{ github.token }}
+      - name: Build
+        env:
+          RUSTFLAGS: "-C target-cpu=x86-64-v3 -C strip=symbols"
+        run: cargo build --release --locked --features cuda
+      - name: Smoke test (no GPU here; the CPU fallback answers)
+        run: |
+          target/release/marina --version
+          printf 'uci\nisready\nposition startpos\ngo nodes 64\nquit\n' | target/release/marina | grep -E "^(uciok|readyok|bestmove)"
+      - name: Upload
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Install gh inside the container.
+          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg -o /usr/share/keyrings/githubcli-archive-keyring.gpg
+          echo "deb [arch=amd64 signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" > /etc/apt/sources.list.d/github-cli.list
+          apt-get update && apt-get install -y --no-install-recommends gh
+          cp target/release/marina marina-linux-x64-cuda
+          sha256sum marina-linux-x64-cuda > marina-linux-x64-cuda.sha256
+          gh release upload "$TAG" marina-linux-x64-cuda marina-linux-x64-cuda.sha256 --repo "$GITHUB_REPOSITORY"
+      - uses: actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a # v3.0.0
+        with:
+          subject-path: marina-linux-x64-cuda

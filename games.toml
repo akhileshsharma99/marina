@@ -1,0 +1,20 @@
+# The games behind the strength numbers in the README: one PGN per row, published as assets
+# of the `games` release (a bin of every set ever released, like `nets`) and copied into
+# each version release alongside the binaries and the networks. The README links point at
+# the version release. Assets are never overwritten: a new match gets a new name.
+
+[games.small-vs-stockfish-17.1-blitz]
+file = "small-vs-stockfish-17.1-blitz.pgn"
+sha256 = "058b292a9283fed814edfe6b47de8624c71913d103f33665382ea862689dac13"
+
+[games.nano-vs-stockfish-17.1-blitz]
+file = "nano-vs-stockfish-17.1-blitz.pgn"
+sha256 = "e32c6f2c05f54f49890791dcf048fbc11bc462a174b0454e3676e8d7db1a8e8e"
+
+[games.small-vs-stockfish-17.1-hyperbullet]
+file = "small-vs-stockfish-17.1-hyperbullet.pgn"
+sha256 = "2d6f1255cc754d50df39b07efa6601dfe5c380d2f5ef816f1db8cf5b1a65a970"
+
+[games.nano-vs-stockfish-17.1-hyperbullet]
+file = "nano-vs-stockfish-17.1-hyperbullet.pgn"
+sha256 = "83d0f8a0c3a84399440bb01fa0c95a9dd01afd86ae98b09ff1f5350acc55c9b5"

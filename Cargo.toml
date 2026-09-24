@@ -1,0 +1,68 @@
+[package]
+name = "marina"
+version = "0.1.0"
+edition = "2024"
+authors = ["Akhilesh Sharma"]
+rust-version = "1.88"
+description = "UCI chess engine: batched PUCT search over transformer policy/value networks"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/akhileshsharma99/marina"
+# Not a crates.io package: the networks are fetched from the `nets` release at build time, which
+# crates.io and docs.rs builds cannot do. Distributed as source and release binaries.
+publish = false
+
+[workspace]
+members = ["nets"]
+
+[dependencies]
+sha2 = "0.10"
+clap = { version = "4.6.7", features = ["derive"] }
+cudarc = { version = "0.19.9", optional = true, default-features = false, features = ["std", "driver", "cublaslt", "nvrtc", "f16", "dynamic-loading", "cuda-12080"] }
+half = { version = "2", optional = true }
+libloading = { version = "0.8", optional = true }
+marina-nets = { path = "nets" }
+matrixmultiply = "0.3.11"
+npyz = { version = "0.9.1", features = ["npz"] }
+rayon = "1.12.0"
+safetensors = "0.8.0"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.151"
+shakmaty = "0.30.1"
+shakmaty-syzygy = "0.28.1"
+strum = { version = "0.28.0", features = ["derive"] }
+thiserror = "2.0.20"
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
+zip = { version = "0.6", default-features = false, features = ["deflate"] }
+
+# Metal backend (macOS only): objc2 bindings to Metal and Metal Performance Shaders.
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.6"
+objc2-foundation = "0.3"
+objc2-metal = "0.3"
+objc2-metal-performance-shaders = "0.3"
+
+[features]
+default = ["embedded"]
+# Compile the networks `nets.toml` marks `embed = true` into the binary (fetched at build
+# time from the `nets` release at their pinned revisions, or from $MARINA_NETS_DIR; hashes checked).
+# Without it `WeightsFile` must name a directory.
+embedded = ["marina-nets/embedded"]
+# Use the system OpenBLAS for the CPU backend's GEMM (Linux/Windows; macOS always uses
+# Accelerate). Without it the pure-Rust `matrixmultiply` kernel is used.
+openblas = []
+# CUDA backend. Needs nvcc at build time (kernels -> PTX) and the CUDA driver plus
+# cuBLASLt at run time, loaded dynamically so the binary still starts without them.
+cuda = ["dep:cudarc", "dep:half", "dep:libloading"]
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+
+# Release code with symbols, for `samply record target/profiling/marina bench ...`.
+[profile.profiling]
+inherits = "release"
+debug = true
+strip = false

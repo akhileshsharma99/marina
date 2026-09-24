@@ -1,0 +1,3840 @@
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E15"]
+[OpeningId "8moves-v3-000231"]
+[SourceIndex "231"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. Qc2 Bb4+ 6. Bd2 Bxd2+ 7. Nbxd2 d5 8.
+Bg2 O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E00"]
+[OpeningId "8moves-v3-000344"]
+[SourceIndex "344"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. g3 c5 4. d5 exd5 5. cxd5 b5 6. Bg2 d6 7. a4 b4 8. Nd2 g6
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-000356"]
+[SourceIndex "356"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 g6 2. c4 Bg7 3. e4 d6 4. Nc3 e5 5. Nge2 Nd7 6. Be3 Nh6 7. f3 f5 8. Qd2
+Nf7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A13"]
+[OpeningId "8moves-v3-000358"]
+[SourceIndex "358"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 e6 2. Nc3 Bb4 3. g3 Ne7 4. Bg2 O-O 5. Qb3 c5 6. a3 Ba5 7. e3 Nbc6 8. Nge2
+Bb6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C41"]
+[OpeningId "8moves-v3-000544"]
+[SourceIndex "544"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 Nf6 5. Nc3 Be7 6. Be2 O-O 7. Be3 Re8 8.
+Nf5 Bxf5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B01"]
+[OpeningId "8moves-v3-000658"]
+[SourceIndex "658"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nf3 Bg4 4. Be2 Nc6 5. h3 Bxf3 6. Bxf3 Qe6+ 7. Qe2
+Qxe2+ 8. Bxe2 O-O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A07"]
+[OpeningId "8moves-v3-000659"]
+[SourceIndex "659"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 d5 2. g3 Nc6 3. d4 Bg4 4. Bg2 e6 5. O-O Bd6 6. c4 Nf6 7. cxd5 Nxd5 8.
+Nbd2 O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B30"]
+[OpeningId "8moves-v3-000895"]
+[SourceIndex "895"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 d6 4. Bxc6+ bxc6 5. O-O e5 6. c3 Nf6 7. Re1 Bg4 8.
+h3 Bh5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A13"]
+[OpeningId "8moves-v3-000971"]
+[SourceIndex "971"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 e6 2. g3 d5 3. Bg2 dxc4 4. Qa4+ Nd7 5. Qxc4 c5 6. Nf3 a6 7. Qc2 Ne7 8. b3
+Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B40"]
+[OpeningId "8moves-v3-001041"]
+[SourceIndex "1041"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. g4 h6 7. Bg2 Nc6 8. Nb3
+Be7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-001238"]
+[SourceIndex "1238"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 e6 2. Nf3 Nf6 3. g3 b6 4. Bg2 Bb7 5. c4 c5 6. d5 exd5 7. Ng5 Na6 8. Nc3
+Nc7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A13"]
+[OpeningId "8moves-v3-001373"]
+[SourceIndex "1373"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 e6 2. Nf3 b6 3. Nc3 Bb7 4. e4 Bb4 5. Qb3 Na6 6. d3 f5 7. exf5 Bxf3 8.
+gxf3 exf5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A30"]
+[OpeningId "8moves-v3-001611"]
+[SourceIndex "1611"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 c5 2. Nf3 Nf6 3. Nc3 b6 4. e3 e6 5. d4 cxd4 6. exd4 Bb7 7. a3 d5 8. cxd5
+Nxd5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-001727"]
+[SourceIndex "1727"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 g6 2. Nf3 Bg7 3. e3 Nf6 4. Be2 O-O 5. b3 c5 6. Bb2 cxd4 7. Nxd4 Qa5+ 8.
+Qd2 Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A46"]
+[OpeningId "8moves-v3-001758"]
+[SourceIndex "1758"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 b6 4. Bf4 Bb7 5. e3 Be7 6. h3 O-O 7. Nc3 d5 8. cxd5
+exd5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D02"]
+[OpeningId "8moves-v3-001933"]
+[SourceIndex "1933"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 dxc4 4. Qa4+ Nbd7 5. Qxc4 e6 6. g3 a6 7. Bg2 b5 8.
+Qc6 Ra7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A05"]
+[OpeningId "8moves-v3-001951"]
+[SourceIndex "1951"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 Nf6 2. g3 g6 3. Bg2 Bg7 4. d4 O-O 5. O-O d6 6. b3 a5 7. c4 a4 8. b4 c5
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B23"]
+[OpeningId "8moves-v3-001988"]
+[SourceIndex "1988"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nc3 d6 3. g3 g6 4. Bg2 Bg7 5. d3 Nc6 6. Be3 Rb8 7. Qd2 b5 8. Nf3 b4
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E10"]
+[OpeningId "8moves-v3-002223"]
+[SourceIndex "2223"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. e3 d5 5. dxc5 Bxc5 6. a3 Nc6 7. b4 Bd6 8. Nbd2
+a5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A00"]
+[OpeningId "8moves-v3-002294"]
+[SourceIndex "2294"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. g3 e5 2. Bg2 d5 3. c4 dxc4 4. Qa4+ Nd7 5. Qxc4 Ngf6 6. Nf3 Bd6 7. O-O O-O 8.
+d3 Qe7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C55"]
+[OpeningId "8moves-v3-002502"]
+[SourceIndex "2502"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O O-O 6. Bb3 d6 7. c3 Bg4 8. h3
+Bh5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A05"]
+[OpeningId "8moves-v3-002873"]
+[SourceIndex "2873"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 Nf6 2. c4 b6 3. g3 Bb7 4. Bg2 g6 5. b3 Bg7 6. Bb2 O-O 7. O-O e6 8. Nc3
+d5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C65"]
+[OpeningId "8moves-v3-002959"]
+[SourceIndex "2959"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. Nc3 Bd6 5. d3 h6 6. h3 O-O 7. g4 Re8 8. g5
+hxg5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B00"]
+[OpeningId "8moves-v3-003013"]
+[SourceIndex "3013"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 Nc6 2. Nf3 d6 3. d4 Nf6 4. Nc3 g6 5. Bb5 a6 6. Bxc6+ bxc6 7. O-O Bg7 8.
+Qe2 O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B07"]
+[OpeningId "8moves-v3-003080"]
+[SourceIndex "3080"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 c6 4. f4 Qa5 5. Bd3 e5 6. dxe5 dxe5 7. f5 Nbd7 8. Bd2
+Qc7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D20"]
+[OpeningId "8moves-v3-003114"]
+[SourceIndex "3114"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 dxc4 3. e3 Nf6 4. Bxc4 e6 5. Nf3 c5 6. Qe2 Nc6 7. dxc5 Bxc5 8.
+O-O O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A46"]
+[OpeningId "8moves-v3-003376"]
+[SourceIndex "3376"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Nf3 e6 3. g3 b5 4. Bg2 Bb7 5. O-O Be7 6. Bg5 Na6 7. c3 c5 8. a4 b4
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B71"]
+[OpeningId "8moves-v3-003401"]
+[SourceIndex "3401"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6 6. f4 Nc6 7. Nxc6 bxc6 8.
+e5 dxe5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B22"]
+[OpeningId "8moves-v3-003483"]
+[SourceIndex "3483"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nc6 5. Nf3 Bg4 6. Be2 e6 7. c4 Qf5 8. d5
+exd5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E24"]
+[OpeningId "8moves-v3-004372"]
+[SourceIndex "4372"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. a3 Bxc3+ 5. bxc3 Nc6 6. e4 Nxe4 7. Qg4 f5 8.
+Qxg7 Qf6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B52"]
+[OpeningId "8moves-v3-004832"]
+[SourceIndex "4832"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Bd7 4. Bxd7+ Qxd7 5. O-O Nf6 6. Qe2 Nc6 7. b3 g6 8.
+Bb2 Bg7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A80"]
+[OpeningId "8moves-v3-004982"]
+[SourceIndex "4982"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 f5 2. Nf3 Nf6 3. g3 g6 4. Bg2 Bg7 5. O-O O-O 6. Nbd2 d6 7. Re1 Nc6 8. e4
+e5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A45"]
+[OpeningId "8moves-v3-005099"]
+[SourceIndex "5099"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Bg5 e6 3. e4 c5 4. e5 h6 5. Bc1 Nd5 6. c4 Nc7 7. dxc5 Bxc5 8. Qg4
+Kf8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D35"]
+[OpeningId "8moves-v3-005245"]
+[SourceIndex "5245"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bf4 Be7 5. e3 O-O 6. c5 Ne4 7. Nxe4 dxe4 8. Qc2
+f5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A04"]
+[OpeningId "8moves-v3-005257"]
+[SourceIndex "5257"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 e6 2. c4 f5 3. g3 Nf6 4. Bg2 d5 5. O-O c6 6. d3 Be7 7. b3 O-O 8. Bb2 Ng4
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A43"]
+[OpeningId "8moves-v3-005372"]
+[SourceIndex "5372"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 c5 2. dxc5 e6 3. Nc3 Qa5 4. Bd2 Qxc5 5. e4 Nf6 6. Bd3 Be7 7. a3 d6 8.
+Nge2 O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E41"]
+[OpeningId "8moves-v3-005393"]
+[SourceIndex "5393"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 c5 5. Bd3 Nc6 6. a3 Bxc3+ 7. bxc3 b6 8. e4
+d6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A15"]
+[OpeningId "8moves-v3-005441"]
+[SourceIndex "5441"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 Nf6 2. Nf3 c5 3. Nc3 d5 4. cxd5 Nxd5 5. e4 Nb4 6. Bc4 Nd3+ 7. Ke2 Nxc1+
+8. Rxc1 Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B40"]
+[OpeningId "8moves-v3-005510"]
+[SourceIndex "5510"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 e6 3. Nc3 a6 4. d4 cxd4 5. Nxd4 d6 6. Bd3 Ne7 7. f4 Nec6 8. Nf3
+Nd7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D31"]
+[OpeningId "8moves-v3-005561"]
+[SourceIndex "5561"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. cxd5 exd5 5. Qc2 g6 6. Bf4 Bf5 7. Qd2 Nf6 8. e3
+Nbd7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.02"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B07"]
+[OpeningId "8moves-v3-005842"]
+[SourceIndex "5842"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 Nbd7 4. g4 h6 5. Nf3 e5 6. g5 hxg5 7. Nxg5 exd4 8.
+Qxd4 c6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D20"]
+[OpeningId "8moves-v3-005982"]
+[SourceIndex "5982"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 dxc4 3. e4 c5 4. d5 Nf6 5. Nc3 b5 6. Bf4 Ba6 7. Qf3 b4 8. Nd1 g6
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A00"]
+[OpeningId "8moves-v3-006122"]
+[SourceIndex "6122"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. g3 Nf6 2. Bg2 d5 3. Nf3 e6 4. c4 Be7 5. d4 O-O 6. Qc2 c5 7. O-O cxd4 8. Nxd4
+Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B10"]
+[OpeningId "8moves-v3-006146"]
+[SourceIndex "6146"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c6 2. d3 e5 3. Nf3 d6 4. g3 Nf6 5. Bg2 Be7 6. O-O O-O 7. Re1 Nbd7 8. d4
+Re8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E48"]
+[OpeningId "8moves-v3-006235"]
+[SourceIndex "6235"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 O-O 5. Bd3 d5 6. Nf3 b6 7. O-O Bb7 8. a3
+Bxc3 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B12"]
+[OpeningId "8moves-v3-006345"]
+[SourceIndex "6345"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 c5 6. Be3 Qb6 7. Nc3 Nc6 8. dxc5
+Bxc5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A48"]
+[OpeningId "8moves-v3-006604"]
+[SourceIndex "6604"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nbd2 h6 5. Bh4 O-O 6. c3 d6 7. e3 b6 8. Bc4
+Bb7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C41"]
+[OpeningId "8moves-v3-006823"]
+[SourceIndex "6823"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 d6 3. d4 exd4 4. Nxd4 Nf6 5. f3 Be7 6. c4 O-O 7. Nc3 c6 8. Be3
+Re8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A48"]
+[OpeningId "8moves-v3-006864"]
+[SourceIndex "6864"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Nf3 g6 3. c4 Bg7 4. g3 c6 5. Bg2 d5 6. Nbd2 O-O 7. O-O a5 8. Ne5
+Nbd7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B03"]
+[OpeningId "8moves-v3-006892"]
+[SourceIndex "6892"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Be2 dxe5 5. dxe5 Nc6 6. Nf3 Bg4 7. c3 Nb6 8.
+Nbd2 e6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C00"]
+[OpeningId "8moves-v3-006967"]
+[SourceIndex "6967"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e6 2. d3 d5 3. Nd2 Nf6 4. Ngf3 b6 5. g3 dxe4 6. dxe4 Bb7 7. Qe2 Ba6 8. c4
+Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A05"]
+[OpeningId "8moves-v3-007027"]
+[SourceIndex "7027"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 Nf6 2. g3 b5 3. Bg2 Bb7 4. O-O e6 5. d3 Be7 6. e4 O-O 7. e5 Ne8 8. d4 c5
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C84"]
+[OpeningId "8moves-v3-007158"]
+[SourceIndex "7158"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. d3 d6 7. c3 O-O 8. Nbd2
+Be6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B40"]
+[OpeningId "8moves-v3-007420"]
+[SourceIndex "7420"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. c3 dxc3 5. Nxc3 Nc6 6. Bc4 a6 7. O-O Nge7 8.
+Bg5 h6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A30"]
+[OpeningId "8moves-v3-007460"]
+[SourceIndex "7460"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 c5 2. Nf3 Nf6 3. Nc3 e6 4. e4 Nc6 5. Be2 d5 6. e5 Nd7 7. cxd5 exd5 8. Bb5
+d4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A41"]
+[OpeningId "8moves-v3-007527"]
+[SourceIndex "7527"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d6 2. Nf3 Bg4 3. e4 Nf6 4. Nc3 c6 5. Be2 e6 6. O-O d5 7. Ne5 Bxe2 8. Qxe2
+dxe4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C29"]
+[OpeningId "8moves-v3-007800"]
+[SourceIndex "7800"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Nf3 Be7 6. d4 O-O 7. Bd3 f5 8.
+exf6 Nxf6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C50"]
+[OpeningId "8moves-v3-007880"]
+[SourceIndex "7880"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. d3 Nf6 5. Bg5 d6 6. c3 h6 7. Bh4 g5 8. Bg3
+Bg4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A26"]
+[OpeningId "8moves-v3-007892"]
+[SourceIndex "7892"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. d3 d6 6. Nf3 h6 7. Rb1 a5 8. a3 Be6
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B40"]
+[OpeningId "8moves-v3-008133"]
+[SourceIndex "8133"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 e6 3. c3 d5 4. e5 Qb6 5. Be2 Nc6 6. O-O Nh6 7. Na3 Bd7 8. h3 f6
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C65"]
+[OpeningId "8moves-v3-008248"]
+[SourceIndex "8248"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6 4. d3 d6 5. O-O Be7 6. Re1 O-O 7. c3 Bd7 8. Nbd2
+Re8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A16"]
+[OpeningId "8moves-v3-008394"]
+[SourceIndex "8394"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 Nf6 2. Nc3 e5 3. Nf3 Nc6 4. e3 Be7 5. a3 d5 6. cxd5 Nxd5 7. Bb5 O-O 8.
+Bxc6 bxc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A05"]
+[OpeningId "8moves-v3-008656"]
+[SourceIndex "8656"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 Nf6 2. c4 d6 3. Nc3 Bg4 4. d4 Nbd7 5. g3 c6 6. Bg2 e6 7. e4 Be7 8. h3
+Bh5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A04"]
+[OpeningId "8moves-v3-008856"]
+[SourceIndex "8856"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 c5 2. c4 Nf6 3. g3 b6 4. Bg2 Bb7 5. O-O e6 6. b3 d6 7. Bb2 Nbd7 8. Nc3
+Be7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D10"]
+[OpeningId "8moves-v3-009028"]
+[SourceIndex "9028"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 c6 3. Nc3 Nf6 4. e3 a6 5. Qc2 e6 6. Nf3 c5 7. a3 cxd4 8. exd4
+dxc4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C69"]
+[OpeningId "8moves-v3-009048"]
+[SourceIndex "9048"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6 dxc6 5. O-O Qf6 6. h3 Ne7 7. d4 exd4 8.
+Qxd4 Qxd4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E39"]
+[OpeningId "8moves-v3-009129"]
+[SourceIndex "9129"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 c5 5. dxc5 O-O 6. Be3 Qe7 7. Nf3 Na6 8. a3
+Bxc3+ 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D02"]
+[OpeningId "8moves-v3-009241"]
+[SourceIndex "9241"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. Nf3 e6 3. Bf4 Bd6 4. Bg3 Nf6 5. Nbd2 b6 6. e3 Bb7 7. Bb5+ c6 8. Bd3
+c5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C45"]
+[OpeningId "8moves-v3-009511"]
+[SourceIndex "9511"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5 5. Be3 Qf6 6. c3 Nge7 7. Nc2 d6 8.
+Nd2 Bxe3 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D25"]
+[OpeningId "8moves-v3-009512"]
+[SourceIndex "9512"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 Bg4 5. Bxc4 e6 6. h3 Bh5 7. O-O Nbd7 8. b3
+c5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B30"]
+[OpeningId "8moves-v3-009546"]
+[SourceIndex "9546"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Qc7 5. d3 d6 6. O-O e6 7. Bxc6+ bxc6 8.
+Qe2 e5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B10"]
+[OpeningId "8moves-v3-009559"]
+[SourceIndex "9559"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c6 2. d3 e5 3. Nf3 Nf6 4. g3 d6 5. Bg2 g6 6. O-O Bg7 7. a4 O-O 8. a5 Re8
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B51"]
+[OpeningId "8moves-v3-009584"]
+[SourceIndex "9584"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. Bb5+ Nd7 4. d4 cxd4 5. Qxd4 a6 6. Bxd7+ Bxd7 7. O-O e5 8.
+Qd3 Rc8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B50"]
+[OpeningId "8moves-v3-009686"]
+[SourceIndex "9686"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 a6 6. f3 Qb6 7. a4 e6 8. a5
+Qc7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C12"]
+[OpeningId "8moves-v3-009714"]
+[SourceIndex "9714"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5 Bb4 5. exd5 Qxd5 6. Bxf6 Bxc3+ 7. bxc3 gxf6
+8. Qg4 Qa5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A16"]
+[OpeningId "8moves-v3-009756"]
+[SourceIndex "9756"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 d6 4. d4 Bg7 5. Bd3 Nbd7 6. Nf3 e5 7. d5 O-O 8. Rb1
+a5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A41"]
+[OpeningId "8moves-v3-009877"]
+[SourceIndex "9877"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d6 2. c4 e5 3. Nf3 e4 4. Ng5 f5 5. Nc3 c6 6. Nh3 Na6 7. f3 Nf6 8. Bg5 Be7
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B40"]
+[OpeningId "8moves-v3-009971"]
+[SourceIndex "9971"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 e6 3. c3 Nf6 4. e5 Nd5 5. Bc4 b6 6. O-O Bb7 7. d4 Be7 8. Nbd2
+O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A13"]
+[OpeningId "8moves-v3-010165"]
+[SourceIndex "10165"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 e6 2. Nc3 d5 3. d4 Be7 4. Nf3 Nf6 5. cxd5 exd5 6. Bg5 c6 7. Qc2 g6 8. e4
+dxe4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C01"]
+[OpeningId "8moves-v3-010167"]
+[SourceIndex "10167"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nf6 5. Bg5 Be7 6. Bd3 O-O 7. O-O Nc6 8.
+c3 h6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A05"]
+[OpeningId "8moves-v3-010224"]
+[SourceIndex "10224"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 Nf6 2. g3 b6 3. Bg2 Bb7 4. O-O e6 5. d3 d5 6. Nbd2 Nbd7 7. e4 dxe4 8.
+Ng5 Nc5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A11"]
+[OpeningId "8moves-v3-010339"]
+[SourceIndex "10339"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 c6 2. g3 d5 3. Bg2 Nf6 4. Nf3 g6 5. O-O Bg7 6. d4 O-O 7. Qb3 b6 8. Nc3
+Bb7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E80"]
+[OpeningId "8moves-v3-010366"]
+[SourceIndex "10366"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 a6 6. Be3 Nbd7 7. Nh3 O-O 8. Nf2
+c5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E12"]
+[OpeningId "8moves-v3-010436"]
+[SourceIndex "10436"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3 Bb7 5. Nc3 g6 6. Qd3 d5 7. cxd5 exd5 8. Bg5
+Be7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C15"]
+[OpeningId "8moves-v3-010456"]
+[SourceIndex "10456"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Bb4 4. Ne2 dxe4 5. a3 Be7 6. Nxe4 Nf6 7. Nxf6+ Bxf6 8.
+Be3 c5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B22"]
+[OpeningId "8moves-v3-010752"]
+[SourceIndex "10752"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. c3 Nf6 3. e5 Nd5 4. d4 cxd4 5. Nf3 e6 6. cxd4 d6 7. Be2 Be7 8. O-O
+O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A46"]
+[OpeningId "8moves-v3-010792"]
+[SourceIndex "10792"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Nf3 e6 3. c4 Bb4+ 4. Bd2 a5 5. g3 d5 6. Qc2 c5 7. dxc5 Nc6 8. Bg2
+d4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B50"]
+[OpeningId "8moves-v3-011006"]
+[SourceIndex "11006"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. Nc3 Nc6 4. d4 cxd4 5. Nxd4 g6 6. Be2 Bg7 7. Nb3 Bxc3+ 8.
+bxc3 Nf6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A84"]
+[OpeningId "8moves-v3-011056"]
+[SourceIndex "11056"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 f5 2. c4 d6 3. Nc3 Nf6 4. Bg5 Nbd7 5. f3 e5 6. e3 Be7 7. Qc2 exd4 8. exd4
+Nh5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C05"]
+[OpeningId "8moves-v3-011196"]
+[SourceIndex "11196"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e6 2. d4 d5 3. Nd2 Nf6 4. e5 Nfd7 5. c3 c5 6. Bd3 Nc6 7. Ngf3 Qb6 8. O-O
+Be7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D30"]
+[OpeningId "8moves-v3-011238"]
+[SourceIndex "11238"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 e6 3. Nf3 Nf6 4. Nc3 Bb4 5. cxd5 exd5 6. Bg5 Nbd7 7. Qc2 c5 8.
+g3 h6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A06"]
+[OpeningId "8moves-v3-011286"]
+[SourceIndex "11286"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 d5 2. b3 Bg4 3. d4 Nd7 4. Bb2 e6 5. e3 Ngf6 6. Nbd2 c6 7. Be2 Bd6 8. Ne5
+Bxe2 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B01"]
+[OpeningId "8moves-v3-011338"]
+[SourceIndex "11338"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Nf3 c6 6. Bd2 Qb6 7. Bc4 Qxb2 8.
+Bb3 Qa3 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E21"]
+[OpeningId "8moves-v3-011876"]
+[SourceIndex "11876"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 b6 5. Qc2 Bb7 6. a3 Bxc3+ 7. Qxc3 Ne4 8.
+Qc2 f5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B22"]
+[OpeningId "8moves-v3-011964"]
+[SourceIndex "11964"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. c3 Nf6 3. d3 e5 4. Nf3 Nc6 5. g3 d5 6. Nbd2 Be7 7. Bg2 O-O 8. O-O
+Re8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A08"]
+[OpeningId "8moves-v3-011990"]
+[SourceIndex "11990"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 d5 2. g3 c5 3. Bg2 Nc6 4. d4 e6 5. O-O Qb6 6. e3 Nf6 7. b3 Bd7 8. Bb2
+cxd4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E35"]
+[OpeningId "8moves-v3-012093"]
+[SourceIndex "12093"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 exd5 6. Bg5 c5 7. Nf3 cxd4 8.
+Nxd4 Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B12"]
+[OpeningId "8moves-v3-012160"]
+[SourceIndex "12160"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Nf3 e6 5. Be2 Nd7 6. O-O Ne7 7. c3 Ng6 8. Ne1 f6
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C49"]
+[OpeningId "8moves-v3-012211"]
+[SourceIndex "12211"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Bb4 5. O-O O-O 6. d3 d6 7. Bg5 Ne7 8. Nh4
+Bg4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B44"]
+[OpeningId "8moves-v3-012615"]
+[SourceIndex "12615"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nb5 Nf6 6. Bf4 e5 7. Bg5 Bb4+ 8.
+c3 Bc5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A10"]
+[OpeningId "8moves-v3-012917"]
+[SourceIndex "12917"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 b6 2. d4 Bb7 3. Nc3 e6 4. a3 Nf6 5. d5 Bd6 6. Nf3 O-O 7. Bg5 Be7 8. Bf4
+Nh5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E21"]
+[OpeningId "8moves-v3-013006"]
+[SourceIndex "13006"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 b6 5. Bg5 Bb7 6. Nd2 h6 7. Bh4 Nc6 8. e3
+g5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C24"]
+[OpeningId "8moves-v3-013011"]
+[SourceIndex "13011"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Bc4 Nf6 3. d3 c6 4. Nf3 Be7 5. Bb3 O-O 6. O-O d6 7. c3 Bg4 8. Nbd2
+Nbd7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A01"]
+[OpeningId "8moves-v3-013113"]
+[SourceIndex "13113"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. b3 e5 2. Bb2 d6 3. g3 Nc6 4. Bg2 f5 5. c4 Nf6 6. d3 Be7 7. Nd2 O-O 8. Ngf3
+Qe8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-013183"]
+[SourceIndex "13183"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 e6 2. Nf3 c5 3. g3 Nc6 4. Bg2 cxd4 5. Nxd4 Qb6 6. Nb3 Nf6 7. O-O d5 8.
+Be3 Qd8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E21"]
+[OpeningId "8moves-v3-013269"]
+[SourceIndex "13269"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3 c5 5. g3 d5 6. cxd5 Nxd5 7. Bd2 Nc6 8. e4
+Nf6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A07"]
+[OpeningId "8moves-v3-013775"]
+[SourceIndex "13775"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 d5 2. g3 Bg4 3. Bg2 c6 4. c4 e6 5. O-O Nf6 6. cxd5 Bxf3 7. Bxf3 cxd5 8.
+d3 Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B23"]
+[OpeningId "8moves-v3-013843"]
+[SourceIndex "13843"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nc3 d6 3. Bb5+ Bd7 4. a4 Nc6 5. Nge2 g6 6. d3 Bg7 7. O-O e6 8. Be3
+Nge7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B40"]
+[OpeningId "8moves-v3-013965"]
+[SourceIndex "13965"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 e6 3. b3 d6 4. Bb2 Nf6 5. Bb5+ Bd7 6. Qe2 Bxb5 7. Qxb5+ Qd7 8.
+Qe2 Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B23"]
+[OpeningId "8moves-v3-014181"]
+[SourceIndex "14181"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nc3 a6 3. f4 b5 4. Nf3 Bb7 5. d3 e6 6. Qe2 Be7 7. g3 d5 8. Bg2 Nf6
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A10"]
+[OpeningId "8moves-v3-014317"]
+[SourceIndex "14317"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 g6 2. Nc3 c5 3. g3 Bg7 4. Bg2 Nc6 5. Nf3 e6 6. a3 Nge7 7. d3 d5 8. cxd5
+exd5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B90"]
+[OpeningId "8moves-v3-014404"]
+[SourceIndex "14404"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nb3 Be6 8. h3
+Nbd7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A00"]
+[OpeningId "8moves-v3-014591"]
+[SourceIndex "14591"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. g3 e5 2. c4 d6 3. Bg2 f5 4. Nc3 Nf6 5. e3 c6 6. Nge2 Be6 7. d3 Be7 8. O-O
+O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E81"]
+[OpeningId "8moves-v3-014600"]
+[SourceIndex "14600"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3 O-O 6. Nge2 Nbd7 7. Be3 c5 8. Ng3
+cxd4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A50"]
+[OpeningId "8moves-v3-014669"]
+[SourceIndex "14669"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 Nc6 3. Nf3 e6 4. Nc3 Bb4 5. Qb3 d6 6. d5 Bxc3+ 7. Qxc3 Nb8 8.
+dxe6 fxe6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B23"]
+[OpeningId "8moves-v3-014736"]
+[SourceIndex "14736"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nc3 d6 3. f4 Nc6 4. Nf3 g6 5. Bc4 Bg7 6. O-O e6 7. Qe1 Nb4 8. Bb3
+c4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-014807"]
+[SourceIndex "14807"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 e6 2. e4 d5 3. Nd2 Be7 4. Ngf3 Nf6 5. e5 Nfd7 6. Bd3 c5 7. c3 Nc6 8. O-O
+Rb8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C42"]
+[OpeningId "8moves-v3-014837"]
+[SourceIndex "14837"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nc4 Nxe4 5. Qe2 Qe7 6. Ne3 Nf6 7. b3 Nc6 8.
+Bb2 Be6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B90"]
+[OpeningId "8moves-v3-014973"]
+[SourceIndex "14973"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 7. f4 b5 8. Bd3
+Bb7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A46"]
+[OpeningId "8moves-v3-014992"]
+[SourceIndex "14992"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. Bg5 dxc4 5. Qa4+ Nbd7 6. e4 a6 7. Bxc4 c5 8.
+O-O cxd4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A20"]
+[OpeningId "8moves-v3-015139"]
+[SourceIndex "15139"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 e5 2. g3 Nc6 3. Nc3 Bc5 4. Bg2 a6 5. e3 d6 6. Nge2 Ba7 7. b3 Nge7 8. Bb2
+h5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A05"]
+[OpeningId "8moves-v3-015296"]
+[SourceIndex "15296"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 Nf6 2. d4 g6 3. g3 Bg7 4. Bg2 O-O 5. O-O d6 6. c3 Nbd7 7. a4 e5 8. dxe5
+dxe5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-015305"]
+[SourceIndex "15305"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 e6 2. c4 Bb4+ 3. Nd2 d5 4. Qa4+ Nc6 5. e3 Nf6 6. Nf3 O-O 7. a3 Be7 8. b4
+a6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D25"]
+[OpeningId "8moves-v3-015309"]
+[SourceIndex "15309"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 Nf6 4. e3 Bg4 5. h3 Bh5 6. g4 Bg6 7. Ne5 Nbd7 8.
+Nxg6 hxg6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A56"]
+[OpeningId "8moves-v3-015601"]
+[SourceIndex "15601"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 c5 3. Nf3 cxd4 4. Nxd4 a6 5. Nc3 e6 6. g3 Qc7 7. Qd3 Nc6 8.
+Nxc6 Qxc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B01"]
+[OpeningId "8moves-v3-015705"]
+[SourceIndex "15705"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5 4. d4 Nf6 5. Bc4 Bf5 6. Nf3 e6 7. O-O c6 8.
+Ne5 Nbd7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C29"]
+[OpeningId "8moves-v3-015734"]
+[SourceIndex "15734"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nc3 Nf6 3. f4 d5 4. fxe5 Nxe4 5. Qf3 f5 6. d3 Nxc3 7. bxc3 d4 8.
+Qf4 c5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A81"]
+[OpeningId "8moves-v3-015836"]
+[SourceIndex "15836"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 g6 4. c3 Bg7 5. Nh3 Nc6 6. Qb3 e5 7. dxe5 Nxe5 8. O-O
+c6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-016018"]
+[SourceIndex "16018"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 e6 2. Nf3 Nf6 3. g3 c5 4. Bg2 d5 5. c4 dxc4 6. O-O Nbd7 7. Na3 Nb6 8. Bg5
+h6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A13"]
+[OpeningId "8moves-v3-016069"]
+[SourceIndex "16069"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 e6 2. d4 Nf6 3. Nf3 Bb4+ 4. Bd2 a5 5. g3 d5 6. Qc2 Nc6 7. a3 Be7 8. Bg2
+Bd7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B33"]
+[OpeningId "8moves-v3-016236"]
+[SourceIndex "16236"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bc4 Qb6 7. Nb3 e6 8.
+Be3 Qc7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C08"]
+[OpeningId "8moves-v3-016318"]
+[SourceIndex "16318"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 exd5 5. Ngf3 Nf6 6. dxc5 Bxc5 7. Nb3 Be7 8.
+Bd3 O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A20"]
+[OpeningId "8moves-v3-016377"]
+[SourceIndex "16377"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 e5 2. g3 Nf6 3. Bg2 c6 4. d4 exd4 5. Qxd4 d5 6. Nf3 dxc4 7. Qxc4 Be7 8.
+O-O O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A04"]
+[OpeningId "8moves-v3-016461"]
+[SourceIndex "16461"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 c5 2. c4 g6 3. g3 Bg7 4. Bg2 Nc6 5. Nc3 d6 6. O-O f5 7. d3 Bd7 8. Bd2
+Nf6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B82"]
+[OpeningId "8moves-v3-016772"]
+[SourceIndex "16772"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. f4 a6 7. Bd3 Be7 8. O-O
+O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B22"]
+[OpeningId "8moves-v3-016847"]
+[SourceIndex "16847"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. c3 e5 3. Nf3 Nc6 4. Bc4 Qc7 5. d3 Nf6 6. Bg5 Be7 7. Bxf6 Bxf6 8.
+Nbd2 Rb8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D11"]
+[OpeningId "8moves-v3-017182"]
+[SourceIndex "17182"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 c6 3. Nf3 dxc4 4. e4 b5 5. a4 Bb7 6. b3 e5 7. bxc4 exd4 8. cxb5
+Bb4+ 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C08"]
+[OpeningId "8moves-v3-017221"]
+[SourceIndex "17221"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e6 2. d4 d5 3. Nd2 c5 4. exd5 exd5 5. Bb5+ Bd7 6. Bxd7+ Nxd7 7. dxc5 Bxc5
+8. Nb3 Bb6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A46"]
+[OpeningId "8moves-v3-017564"]
+[SourceIndex "17564"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Nf3 c5 3. d5 b5 4. a4 b4 5. c4 d6 6. g3 e5 7. dxe6 Bxe6 8. Bg2 Nc6
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A05"]
+[OpeningId "8moves-v3-017736"]
+[SourceIndex "17736"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 Nf6 2. c4 b6 3. Nc3 Bb7 4. d4 e6 5. a3 g6 6. g3 Bg7 7. Bg2 Ne4 8. Nxe4
+Bxe4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B07"]
+[OpeningId "8moves-v3-018084"]
+[SourceIndex "18084"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 d6 2. d4 Nf6 3. Nc3 e5 4. Nf3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. a4 exd4 8.
+Nxd4 Re8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C41"]
+[OpeningId "8moves-v3-018136"]
+[SourceIndex "18136"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 d6 3. d4 Nf6 4. Nc3 Nbd7 5. Bc4 Be7 6. O-O O-O 7. Qe2 c6 8. Bg5
+h6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A16"]
+[OpeningId "8moves-v3-018465"]
+[SourceIndex "18465"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 Nf6 2. Nc3 e5 3. e3 d5 4. cxd5 Nxd5 5. Nf3 Nxc3 6. bxc3 Bd6 7. d4 Qe7 8.
+Rb1 O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A57"]
+[OpeningId "8moves-v3-018488"]
+[SourceIndex "18488"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. b6 Qxb6 6. Nc3 d6 7. e4 g6 8. a4 Bg7
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-018498"]
+[SourceIndex "18498"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 e6 2. c4 d5 3. Nc3 Nf6 4. Bg5 Be7 5. e3 Nbd7 6. Nf3 O-O 7. cxd5 exd5 8.
+Qc2 h6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B23"]
+[OpeningId "8moves-v3-018651"]
+[SourceIndex "18651"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nc3 a6 3. f4 b5 4. Nf3 Bb7 5. d3 e6 6. Qe2 Nc6 7. Be3 Qb6 8. O-O-O
+Qa5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A25"]
+[OpeningId "8moves-v3-018952"]
+[SourceIndex "18952"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 g6 4. Bg2 Bg7 5. e4 d6 6. d3 f5 7. Nge2 Nf6 8. Nd5
+O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B30"]
+[OpeningId "8moves-v3-018971"]
+[SourceIndex "18971"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 Nc6 3. Nc3 e5 4. Bc4 Be7 5. d3 d6 6. h3 Nf6 7. Bg5 O-O 8. Bxf6
+Bxf6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E32"]
+[OpeningId "8moves-v3-019273"]
+[SourceIndex "19273"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. a3 Bxc3+ 6. Qxc3 b6 7. Nf3 Bb7 8.
+b4 d6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C03"]
+[OpeningId "8moves-v3-019325"]
+[SourceIndex "19325"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e6 2. d4 d5 3. Nd2 b6 4. Ngf3 Bb7 5. Bd3 Nf6 6. e5 Nfd7 7. O-O c5 8. Re1
+Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C55"]
+[OpeningId "8moves-v3-019435"]
+[SourceIndex "19435"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3 Be7 5. O-O O-O 6. c3 d5 7. exd5 Nxd5 8.
+Bb5 Bd6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C11"]
+[OpeningId "8moves-v3-019500"]
+[SourceIndex "19500"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5 Nfd7 5. f4 c5 6. Nf3 Be7 7. Be3 Qb6 8. Na4
+Qa5+ 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A04"]
+[OpeningId "8moves-v3-019509"]
+[SourceIndex "19509"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 c5 2. b3 Nc6 3. Bb2 Nf6 4. c4 e6 5. e3 Be7 6. g3 d5 7. Bg2 dxc4 8. bxc4
+Qd3 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A09"]
+[OpeningId "8moves-v3-019584"]
+[SourceIndex "19584"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 d5 2. c4 d4 3. g3 Nc6 4. Bg2 e5 5. O-O Nf6 6. d3 Nd7 7. a3 a5 8. e3 Be7
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B50"]
+[OpeningId "8moves-v3-019586"]
+[SourceIndex "19586"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. Bc4 e6 4. O-O Nf6 5. Re1 Be7 6. Bb3 b5 7. d3 Bb7 8. Nbd2
+Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A18"]
+[OpeningId "8moves-v3-019688"]
+[SourceIndex "19688"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 Nf6 2. Nc3 e6 3. e4 d5 4. e5 Ne4 5. Nf3 Nc6 6. cxd5 exd5 7. Bb5 Bc5 8.
+O-O O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E32"]
+[OpeningId "8moves-v3-019773"]
+[SourceIndex "19773"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 O-O 5. e4 d6 6. Bd3 c5 7. a3 Ba5 8. d5 Re8
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-019812"]
+[SourceIndex "19812"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 e6 2. e4 d5 3. Nc3 Bb4 4. exd5 exd5 5. Bd3 Ne7 6. Qh5 c5 7. Nf3 c4 8. Be2
+Bf5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E00"]
+[OpeningId "8moves-v3-019975"]
+[SourceIndex "19975"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. g3 d5 4. Nf3 Bb4+ 5. Bd2 Be7 6. Bg2 c6 7. Bf4 Nbd7 8. O-O
+dxc4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A00"]
+[OpeningId "8moves-v3-020022"]
+[SourceIndex "20022"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. g3 g6 2. d4 d5 3. Bg2 Bg7 4. Nf3 c6 5. c4 Nf6 6. cxd5 cxd5 7. Ne5 O-O 8. Nc3
+e6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A80"]
+[OpeningId "8moves-v3-020248"]
+[SourceIndex "20248"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 f5 2. Nc3 Nf6 3. Bg5 d5 4. Bxf6 exf6 5. e3 Be6 6. Qf3 Qd7 7. h4 h5 8. a3
+Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A05"]
+[OpeningId "8moves-v3-020262"]
+[SourceIndex "20262"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 Nf6 2. g3 d5 3. Bg2 c6 4. O-O Bg4 5. d3 Nbd7 6. Nbd2 e6 7. b3 a5 8. a3
+Be7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A04"]
+[OpeningId "8moves-v3-020337"]
+[SourceIndex "20337"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 d6 2. d4 Bg4 3. g3 Bxf3 4. exf3 e6 5. Bg2 c6 6. O-O Ne7 7. f4 g6 8. Nd2
+Bg7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B23"]
+[OpeningId "8moves-v3-020454"]
+[SourceIndex "20454"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nc3 Nc6 3. Bb5 Nd4 4. Bc4 Nf6 5. Nge2 a6 6. d3 b5 7. Bb3 e6 8. O-O
+Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A09"]
+[OpeningId "8moves-v3-020620"]
+[SourceIndex "20620"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 d5 2. c4 d4 3. e3 Nc6 4. d3 e5 5. Be2 Bc5 6. O-O Nge7 7. Na3 O-O 8. Nc2
+dxe3 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B53"]
+[OpeningId "8moves-v3-020645"]
+[SourceIndex "20645"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 a6 5. Be2 Nc6 6. Qe3 Nf6 7. h3 e6 8. O-O
+Be7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D02"]
+[OpeningId "8moves-v3-020798"]
+[SourceIndex "20798"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. Nf3 e6 3. g3 Nf6 4. Bg2 b5 5. O-O c5 6. Nbd2 Bb7 7. dxc5 Bxc5 8.
+Nb3 Be7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A17"]
+[OpeningId "8moves-v3-020929"]
+[SourceIndex "20929"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 Nf6 2. Nc3 e6 3. Nf3 Bb4 4. g3 O-O 5. Bg2 c5 6. O-O Nc6 7. d3 d6 8. Rb1
+Qe7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A00"]
+[OpeningId "8moves-v3-021068"]
+[SourceIndex "21068"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. g3 Nf6 2. Bg2 d5 3. Nf3 e6 4. O-O Nbd7 5. d3 Be7 6. Nbd2 c6 7. e4 Qc7 8. d4
+dxe4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A80"]
+[OpeningId "8moves-v3-021127"]
+[SourceIndex "21127"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 f5 2. Nc3 Nf6 3. Bg5 d5 4. Bxf6 exf6 5. e3 Be6 6. Bd3 Nc6 7. Qf3 Qd7 8.
+a3 O-O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A00"]
+[OpeningId "8moves-v3-021197"]
+[SourceIndex "21197"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. g3 d5 2. Nf3 Bf5 3. Bg2 e6 4. O-O Be7 5. c4 c6 6. d3 Nd7 7. Nc3 Ngf6 8. cxd5
+cxd5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B23"]
+[OpeningId "8moves-v3-021248"]
+[SourceIndex "21248"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nc3 Nc6 3. Nf3 g6 4. Bc4 Bg7 5. O-O Ne5 6. Be2 d6 7. a3 Nf6 8. b4
+Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D31"]
+[OpeningId "8moves-v3-021933"]
+[SourceIndex "21933"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 e6 3. Nc3 Be7 4. cxd5 exd5 5. Bf4 c6 6. e3 Bf5 7. Nge2 Nd7 8.
+Ng3 Bg6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A05"]
+[OpeningId "8moves-v3-022138"]
+[SourceIndex "22138"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 Nf6 2. c4 e6 3. Nc3 d5 4. d4 Nbd7 5. Bg5 Be7 6. e3 h6 7. Bf4 O-O 8. Bd3
+c6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E11"]
+[OpeningId "8moves-v3-022289"]
+[SourceIndex "22289"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Be7 5. Nc3 O-O 6. Qc2 d5 7. Bg5 dxc4 8.
+e4 Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B50"]
+[OpeningId "8moves-v3-022565"]
+[SourceIndex "22565"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. c3 Nf6 4. Be2 g6 5. O-O Bg7 6. Bb5+ Bd7 7. Bxd7+ Nbxd7 8.
+Qe2 Ne5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E11"]
+[OpeningId "8moves-v3-022575"]
+[SourceIndex "22575"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 a5 5. Qc2 Bxd2+ 6. Nbxd2 d5 7. g3 O-O 8.
+Bg2 b6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "C48"]
+[OpeningId "8moves-v3-022704"]
+[SourceIndex "22704"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 e5 2. Nf3 Nc6 3. Nc3 Nf6 4. Bb5 Nd4 5. Bc4 Nxf3+ 6. gxf3 d6 7. d4 Be6 8.
+d5 Bd7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B23"]
+[OpeningId "8moves-v3-022736"]
+[SourceIndex "22736"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nc3 d6 3. f4 Nc6 4. Nf3 g6 5. d4 cxd4 6. Nxd4 Bg7 7. Nb3 Nf6 8. Be2
+O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B22"]
+[OpeningId "8moves-v3-022789"]
+[SourceIndex "22789"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nf6 5. Na3 e6 6. Nb5 Qd8 7. dxc5 Bxc5 8.
+Qxd8+ Kxd8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A46"]
+[OpeningId "8moves-v3-023266"]
+[SourceIndex "23266"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Nf3 d5 3. c4 e6 4. Nc3 c6 5. e3 Nbd7 6. b3 Bb4 7. Bd2 O-O 8. Be2
+Bd6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A57"]
+[OpeningId "8moves-v3-023506"]
+[SourceIndex "23506"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 c5 3. d5 b5 4. cxb5 a6 5. Nc3 axb5 6. e4 Qa5 7. e5 Ne4 8. Bd2
+Nxd2 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A04"]
+[OpeningId "8moves-v3-023600"]
+[SourceIndex "23600"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 c5 2. e3 g6 3. d4 Bg7 4. c3 d6 5. Be2 Nf6 6. O-O O-O 7. a4 Nbd7 8. Na3
+d5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B20"]
+[OpeningId "8moves-v3-023676"]
+[SourceIndex "23676"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. a3 g6 3. h4 d5 4. exd5 Qxd5 5. Nc3 Qe6+ 6. Be2 Nc6 7. Nf3 Bg7 8. d3
+Nh6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A03"]
+[OpeningId "8moves-v3-024028"]
+[SourceIndex "24028"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. f4 d5 2. Nf3 Bg4 3. e3 Nd7 4. Be2 Bxf3 5. Bxf3 Ngf6 6. b3 e5 7. fxe5 Nxe5 8.
+Bb2 Bd6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A17"]
+[OpeningId "8moves-v3-024154"]
+[SourceIndex "24154"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 Nf6 2. Nc3 e6 3. Nf3 b6 4. b3 Bb7 5. Bb2 Be7 6. e3 O-O 7. Be2 Re8 8. O-O
+a6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E34"]
+[OpeningId "8moves-v3-024245"]
+[SourceIndex "24245"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2 d5 5. cxd5 Qxd5 6. e3 e5 7. a3 exd4 8.
+axb4 dxc3 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D02"]
+[OpeningId "8moves-v3-024278"]
+[SourceIndex "24278"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 dxc4 4. e3 Bg4 5. Bxc4 e6 6. Nbd2 Nbd7 7. O-O Be7 8.
+b3 c5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B94"]
+[OpeningId "8moves-v3-024280"]
+[SourceIndex "24280"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Bg5 Nbd7 7. f4 e5 8. Nf3
+Qc7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A04"]
+[OpeningId "8moves-v3-024290"]
+[SourceIndex "24290"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 c5 2. b3 d5 3. Bb2 f6 4. c4 d4 5. d3 e5 6. e3 Ne7 7. Be2 Nec6 8. Nbd2
+Be7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A48"]
+[OpeningId "8moves-v3-024497"]
+[SourceIndex "24497"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Nf3 g6 3. b4 Bg7 4. Bb2 O-O 5. Nbd2 d6 6. e4 e5 7. dxe5 Ng4 8. Rb1
+Nxe5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A25"]
+[OpeningId "8moves-v3-024809"]
+[SourceIndex "24809"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 e5 2. Nc3 Nc6 3. g3 Nf6 4. Bg2 Bc5 5. e3 d6 6. a3 Be6 7. b4 Bb6 8. d3 Qd7
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B45"]
+[OpeningId "8moves-v3-025359"]
+[SourceIndex "25359"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6 5. Nc3 d6 6. f4 Nf6 7. Nf3 Qb6 8. Bd3
+d5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D02"]
+[OpeningId "8moves-v3-025657"]
+[SourceIndex "25657"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. Nf3 Nf6 3. c4 e6 4. Nc3 Bb4 5. g3 dxc4 6. Bg2 O-O 7. O-O Nbd7 8.
+Qc2 Rb8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A45"]
+[OpeningId "8moves-v3-025663"]
+[SourceIndex "25663"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Bg5 e6 3. e4 h6 4. Bxf6 Qxf6 5. Nc3 Bb4 6. Qd2 d6 7. a3 Ba5 8.
+O-O-O Bd7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A48"]
+[OpeningId "8moves-v3-025917"]
+[SourceIndex "25917"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Nf3 g6 3. Bg5 Bg7 4. Nbd2 d5 5. e3 O-O 6. Bd3 c5 7. c3 Nbd7 8. O-O
+Qb6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A09"]
+[OpeningId "8moves-v3-026268"]
+[SourceIndex "26268"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 d5 2. c4 c6 3. g3 Nf6 4. Bg2 Bg4 5. O-O Nbd7 6. cxd5 cxd5 7. Qb3 e5 8.
+d4 e4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A04"]
+[OpeningId "8moves-v3-026314"]
+[SourceIndex "26314"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 g6 2. e4 c5 3. d4 cxd4 4. Nxd4 Bg7 5. Nc3 Nc6 6. Be3 Nf6 7. Bc4 d6 8. f3
+Qb6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B12"]
+[OpeningId "8moves-v3-026558"]
+[SourceIndex "26558"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. c3 e6 5. Be3 Nd7 6. Nd2 Qb6 7. Qb3 c5 8. Qxb6
+axb6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A04"]
+[OpeningId "8moves-v3-026664"]
+[SourceIndex "26664"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 d6 2. d4 Bg4 3. Nbd2 Nf6 4. h3 Bh5 5. g4 Bg6 6. Nh4 e6 7. Bg2 Nc6 8. c3
+Be7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-026683"]
+[SourceIndex "26683"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 g6 2. e4 Bg7 3. c4 c5 4. d5 d6 5. f3 e6 6. Nc3 exd5 7. cxd5 a6 8. a4 Ne7
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A25"]
+[OpeningId "8moves-v3-026789"]
+[SourceIndex "26789"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 e5 2. Nc3 Nc6 3. d3 Nge7 4. Nf3 d5 5. cxd5 Nxd5 6. e3 g6 7. Be2 Bg7 8.
+Qc2 Ndb4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A80"]
+[OpeningId "8moves-v3-026791"]
+[SourceIndex "26791"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 f5 2. Nc3 Nf6 3. Bf4 e6 4. e3 Be7 5. Bd3 O-O 6. Nge2 d5 7. O-O c5 8. dxc5
+Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D21"]
+[OpeningId "8moves-v3-027129"]
+[SourceIndex "27129"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 dxc4 3. Nf3 e6 4. Nc3 a6 5. Bg5 Nf6 6. e3 b5 7. a4 b4 8. Na2 Bb7
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A10"]
+[OpeningId "8moves-v3-027455"]
+[SourceIndex "27455"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 b6 2. Nc3 e6 3. g3 Bb7 4. e4 f5 5. Bg2 Nf6 6. d3 fxe4 7. Nge2 Bc5 8. O-O
+O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B31"]
+[OpeningId "8moves-v3-027489"]
+[SourceIndex "27489"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. Bxc6 dxc6 5. d3 Bg7 6. h3 b6 7. Nc3 e5 8. O-O
+Ne7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A16"]
+[OpeningId "8moves-v3-027525"]
+[SourceIndex "27525"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 Nf6 2. Nc3 g6 3. e4 d6 4. d4 Bg7 5. Nf3 O-O 6. h3 c5 7. Be2 cxd4 8. Nxd4
+Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A01"]
+[OpeningId "8moves-v3-027807"]
+[SourceIndex "27807"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. b3 e5 2. Bb2 Nc6 3. c4 Nf6 4. Nf3 e4 5. Nd4 Bc5 6. Nxc6 dxc6 7. e3 Bf5 8.
+Qc2 Qe7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A81"]
+[OpeningId "8moves-v3-028289"]
+[SourceIndex "28289"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 f5 2. g3 Nf6 3. Bg2 e6 4. Nf3 Be7 5. O-O O-O 6. c4 d6 7. Nc3 a5 8. Re1
+Ne4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B23"]
+[OpeningId "8moves-v3-028645"]
+[SourceIndex "28645"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nc3 d6 3. f4 Nc6 4. Nf3 g6 5. Bb5 Bd7 6. O-O Bg7 7. d3 Nf6 8. Bxc6
+bxc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B12"]
+[OpeningId "8moves-v3-028652"]
+[SourceIndex "28652"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Be3 e6 5. Nd2 Nd7 6. Be2 f6 7. Ngf3 Qc7 8. exf6
+Ngxf6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A06"]
+[OpeningId "8moves-v3-028661"]
+[SourceIndex "28661"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 d5 2. d4 Nf6 3. c4 c6 4. Nc3 a6 5. c5 Nbd7 6. Bf4 Nh5 7. g3 Nxf4 8. gxf4
+g6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-029041"]
+[SourceIndex "29041"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 e6 2. Nd2 c5 3. e3 Nc6 4. Ngf3 b6 5. c3 Bb7 6. Bd3 Qc7 7. O-O Nf6 8. a3
+Be7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B90"]
+[OpeningId "8moves-v3-029188"]
+[SourceIndex "29188"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e6 7. g4 h6 8. f4
+Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B10"]
+[OpeningId "8moves-v3-029193"]
+[SourceIndex "29193"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c6 2. c4 d5 3. exd5 cxd5 4. cxd5 Nf6 5. Qa4+ Nbd7 6. Nc3 g6 7. d4 Bg7 8.
+Qb3 O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A01"]
+[OpeningId "8moves-v3-029289"]
+[SourceIndex "29289"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. b3 e5 2. Bb2 d6 3. c4 Nf6 4. e3 Be7 5. Nf3 O-O 6. Be2 Nbd7 7. d4 c6 8. Nfd2
+Re8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-029467"]
+[SourceIndex "29467"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 e6 2. c4 b6 3. Nc3 Bb7 4. a3 f5 5. d5 Nf6 6. Nf3 Be7 7. g3 O-O 8. Bg2 Ne4
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E10"]
+[OpeningId "8moves-v3-029561"]
+[SourceIndex "29561"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 c5 4. d5 b5 5. Bg5 b4 6. e4 d6 7. Bd3 Be7 8. e5 dxe5
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B22"]
+[OpeningId "8moves-v3-029681"]
+[SourceIndex "29681"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. c3 d5 3. exd5 Qxd5 4. d4 Nc6 5. Be3 cxd4 6. cxd4 e5 7. Nc3 Bb4 8.
+Nf3 Bg4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A49"]
+[OpeningId "8moves-v3-030033"]
+[SourceIndex "30033"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. Nf3 g6 3. g3 d5 4. Bg2 c6 5. O-O Bg7 6. c4 dxc4 7. a4 Na6 8. Na3
+Be6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-030061"]
+[SourceIndex "30061"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 e6 2. Nf3 f5 3. g3 Nf6 4. Bg2 Be7 5. O-O O-O 6. c4 Ne4 7. Qc2 Nc6 8. Nc3
+Nxc3 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B90"]
+[OpeningId "8moves-v3-030175"]
+[SourceIndex "30175"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 Nbd7 7. Be2 e6 8.
+O-O b5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E15"]
+[OpeningId "8moves-v3-030383"]
+[SourceIndex "30383"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6 5. b3 b5 6. cxb5 Bxb5 7. Nc3 Bb4 8. Bd2
+Bc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B50"]
+[OpeningId "8moves-v3-030521"]
+[SourceIndex "30521"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. d4 Nf6 4. Nc3 cxd4 5. Nxd4 Nbd7 6. Bc4 g6 7. f3 a6 8. Be3
+b5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A09"]
+[OpeningId "8moves-v3-030558"]
+[SourceIndex "30558"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 d5 2. c4 d4 3. b4 f6 4. e3 e5 5. c5 d3 6. Qb3 e4 7. Nd4 a5 8. Nc3 f5
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A41"]
+[OpeningId "8moves-v3-030651"]
+[SourceIndex "30651"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d6 2. Nf3 Bg4 3. c4 Nd7 4. e4 e5 5. Be2 Be7 6. Nc3 Bxf3 7. Bxf3 Bg5 8.
+Bg4 Bxc1 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B00"]
+[OpeningId "8moves-v3-030741"]
+[SourceIndex "30741"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 d6 2. d4 g6 3. Nc3 Bg7 4. Be3 a6 5. f4 Nf6 6. h3 O-O 7. Qf3 c6 8. g4 b5
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B12"]
+[OpeningId "8moves-v3-030869"]
+[SourceIndex "30869"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c6 2. d4 d5 3. e5 Bf5 4. Be3 e6 5. Nd2 Nd7 6. f4 Ne7 7. Ngf3 c5 8. dxc5
+Nc6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E45"]
+[OpeningId "8moves-v3-031197"]
+[SourceIndex "31197"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3 b6 5. Ne2 Ba6 6. a3 Bxc3+ 7. Nxc3 d5 8. b4
+dxc4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B90"]
+[OpeningId "8moves-v3-031525"]
+[SourceIndex "31525"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 Ng4 7. Bc1 Nf6 8.
+Be3 Ng4 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B40"]
+[OpeningId "8moves-v3-031588"]
+[SourceIndex "31588"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 e6 3. d3 Nc6 4. c3 d6 5. d4 d5 6. exd5 Qxd5 7. Be3 cxd4 8. cxd4
+Nf6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D01"]
+[OpeningId "8moves-v3-032066"]
+[SourceIndex "32066"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. Nc3 Nf6 3. Bg5 c6 4. Nf3 Nbd7 5. e3 g6 6. Bd3 Bg7 7. O-O O-O 8. Re1
+Re8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D10"]
+[OpeningId "8moves-v3-032116"]
+[SourceIndex "32116"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 c6 3. e3 Nf6 4. Nf3 a6 5. Bd3 Bg4 6. Nbd2 Nbd7 7. Qc2 dxc4 8.
+Nxc4 Bxf3 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D07"]
+[OpeningId "8moves-v3-032127"]
+[SourceIndex "32127"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 Nc6 3. Nf3 Bg4 4. cxd5 Bxf3 5. dxc6 Bxc6 6. Nc3 Nf6 7. f3 e5 8.
+dxe5 Nd7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B12"]
+[OpeningId "8moves-v3-032253"]
+[SourceIndex "32253"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c6 2. d4 d5 3. f3 dxe4 4. fxe4 e5 5. Nf3 Bg4 6. Bc4 Nd7 7. c3 Bh5 8. O-O
+Ngf6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A11"]
+[OpeningId "8moves-v3-032296"]
+[SourceIndex "32296"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 c6 2. Nf3 d5 3. e3 Nf6 4. Qc2 e6 5. Nc3 Nbd7 6. b3 Bd6 7. Bb2 a6 8. Be2
+Qe7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A07"]
+[OpeningId "8moves-v3-032497"]
+[SourceIndex "32497"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 d5 2. g3 c6 3. Bg2 Bg4 4. Ne5 Be6 5. d4 Nd7 6. Nd2 Ngf6 7. O-O g6 8.
+Ndf3 h6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D85"]
+[OpeningId "8moves-v3-032549"]
+[SourceIndex "32549"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5 5. Bd2 Nb6 6. Bg5 Bg7 7. Nf3 c5 8.
+dxc5 Bxc3+ 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A13"]
+[OpeningId "8moves-v3-032609"]
+[SourceIndex "32609"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 e6 2. Nc3 Nf6 3. e4 d5 4. cxd5 exd5 5. e5 Ne4 6. Nf3 Nxc3 7. bxc3 c5 8.
+Bb5+ Bd7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A10"]
+[OpeningId "8moves-v3-032611"]
+[SourceIndex "32611"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 b6 2. Nc3 Bb7 3. e4 e6 4. d3 Bb4 5. Qg4 Qf6 6. Ne2 Qg6 7. Qh3 Ne7 8. a3
+Bxc3+ 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B04"]
+[OpeningId "8moves-v3-032740"]
+[SourceIndex "32740"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3 Nb6 5. a4 a5 6. Bb5+ c6 7. Be2 Bg4 8. Ng5
+Bxe2 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E11"]
+[OpeningId "8moves-v3-032751"]
+[SourceIndex "32751"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2 O-O 5. g3 b6 6. Bg2 Bb7 7. O-O Bxd2 8.
+Bxd2 d6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B41"]
+[OpeningId "8moves-v3-032873"]
+[SourceIndex "32873"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6 5. c4 Nf6 6. Nc3 Bb4 7. Qd3 d5 8. exd5
+exd5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.03"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A05"]
+[OpeningId "8moves-v3-032879"]
+[SourceIndex "32879"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 Nf6 2. g3 g6 3. b3 Bg7 4. Bb2 d6 5. Bg2 e5 6. O-O O-O 7. c4 Nh5 8. d4 e4
+1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.04"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A34"]
+[OpeningId "8moves-v3-033283"]
+[SourceIndex "33283"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. c4 c5 2. Nc3 g6 3. g3 Bg7 4. Bg2 Nc6 5. e3 e5 6. Nge2 Nge7 7. O-O O-O 8. a3
+d6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.04"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B32"]
+[OpeningId "8moves-v3-033477"]
+[SourceIndex "33477"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6 5. Bc4 Bg7 6. Nb3 Nf6 7. Nc3 d6 8.
+O-O O-O 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.04"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D00"]
+[OpeningId "8moves-v3-033925"]
+[SourceIndex "33925"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. e3 Nf6 3. Nf3 c5 4. c4 e6 5. Nc3 a6 6. dxc5 Bxc5 7. a3 dxc4 8.
+Qxd8+ Kxd8 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.04"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A05"]
+[OpeningId "8moves-v3-034039"]
+[SourceIndex "34039"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. Nf3 Nf6 2. d4 g6 3. Bg5 Bg7 4. Nbd2 O-O 5. c3 d6 6. e3 Nbd7 7. Be2 e5 8. O-O
+Qe7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.04"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "E60"]
+[OpeningId "8moves-v3-034051"]
+[SourceIndex "34051"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 Nf6 2. c4 g6 3. Nf3 Bg7 4. g3 d5 5. Bg2 dxc4 6. Qa4+ Nfd7 7. O-O Nc6 8.
+Qxc4 Nb6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.04"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A40"]
+[OpeningId "8moves-v3-034065"]
+[SourceIndex "34065"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 e6 2. c4 Bb4+ 3. Bd2 Bxd2+ 4. Qxd2 d5 5. Nf3 Nf6 6. g3 O-O 7. Bg2 b6 8.
+cxd5 exd5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.04"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "D31"]
+[OpeningId "8moves-v3-034092"]
+[SourceIndex "34092"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. d4 d5 2. c4 e6 3. Nc3 c6 4. e3 Nf6 5. Nf3 Nbd7 6. b3 Bd6 7. Bb2 O-O 8. Bd3
+Qe7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.04"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B33"]
+[OpeningId "8moves-v3-034131"]
+[SourceIndex "34131"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6 6. Ndb5 Bb4 7. a3 Bxc3+ 8.
+Nxc3 d5 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.04"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B32"]
+[OpeningId "8moves-v3-034233"]
+[SourceIndex "34233"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e6 5. Nc3 d6 6. Nxc6 bxc6 7. Bd3 Nf6 8.
+O-O Be7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.04"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "A00"]
+[OpeningId "8moves-v3-034435"]
+[SourceIndex "34435"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. g3 c5 2. c4 Nc6 3. Bg2 g6 4. Nc3 Bg7 5. a3 Nf6 6. Rb1 a5 7. Nf3 O-O 8. O-O
+d6 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.04"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B40"]
+[OpeningId "8moves-v3-034487"]
+[SourceIndex "34487"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 Nc6 6. Ndb5 Bc5 7. Bf4 O-O 8.
+Bc7 Qe7 1/2-1/2
+
+[Event "?"]
+[Site "?"]
+[Date "2013.11.04"]
+[Round "1"]
+[White "Stockfish"]
+[Black "Stockfish"]
+[Result "1/2-1/2"]
+[Eco "B53"]
+[OpeningId "8moves-v3-034508"]
+[SourceIndex "34508"]
+[SourceCommit "65815ccdbc7727cd4f6aee252ba8f67fb740e92f"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Qxd4 Bd7 5. c4 Nc6 6. Qd2 Nf6 7. Nc3 g6 8. b3
+Bg7 1/2-1/2
+

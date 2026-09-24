@@ -1,0 +1,45 @@
+# Networks the engine knows by name: the `Network` option lists them, `default` is the one
+# it plays without being told, and `WeightsFile` names a directory holding model.json +
+# model.safetensors when `Network` is `file`.
+#
+# Networks are published as assets of the `nets` release of github.com/akhileshsharma99/marina,
+# named `<name>-<revision>.<file>` where `revision` is the first 8 hex digits of the
+# weights' sha256. Networks with `embed = true` are compiled into the binary: nets/build.rs
+# fetches the files from there (or copies them from $MARINA_NETS_DIR/<name>/ when that is
+# set), checks the sha256s, and fails the build on any mismatch. Nothing is ever substituted
+# for a network that does not load. Networks with `embed = false` are known by name so the
+# engine can say where to get them, but are not built in.
+#
+# Each network also ships `vectors.npz`: 2,048 positions with the outputs of the network as
+# trained. For embedded networks nets/build.rs fetches it beside the weights (not into the
+# binary); `cargo test` checks the encoder against it and `marina verify` checks a backend.
+#
+# `[nets.<name>.search]` holds the search settings tuned for that network (SPRT at 10+0.1):
+# `cpuct` and `fpu_reduction` in hundredths, `batch` in leaves. They are the defaults of the
+# `CPuct`, `FPUReduction` and `Batch` options whenever the network is selected and the user
+# has not set the option; the `uci` declaration shows the default network's.
+#
+# Sizes: nano 192x6 (2.7M parameters, 11 MB), small 512x12 (38M, 153 MB). Both are embedded;
+# `small` is the default.
+
+default = "small"
+
+[nets.nano]
+revision = "7fc01ecb"
+model_json_sha256 = "f1900d15072bf439e88c9b3dc53938930b96591e8e07f01f7c63be2a77a0b354"
+model_safetensors_sha256 = "7fc01ecb69ee88faaa6766974985ff0a0fc37cf315b586366b8e836ba4b6e3aa"
+vectors_sha256 = "b0cf4fcca6cdcb2ff7742a380094a84f59fa635b1721fb6164810918586d8b5f"
+embed = true
+# Batch 128 measured +360 Elo over batch 8 at 10+0.1; cpuct and FPU not yet tuned for this network.
+search = { cpuct = 150, fpu_reduction = 25, batch = 128 }
+
+[nets.small]
+# Trained on a Syzygy- and WDL-rescored corpus: +23 ± 10 Elo at 10+0.1 over the previous
+# `small` (SPRT, 770 games).
+revision = "73bc41fb"
+model_json_sha256 = "79ce746b921a025037589eaa7ceb49a420b40345ce5a2db6dc844d304839197d"
+model_safetensors_sha256 = "73bc41fb6f7683f5229a9bfe214f7d24cfa1dea23760d775caee9aeb6554e2bd"
+vectors_sha256 = "ea540f3cc168f60a1336237962031ab2ce11fc88a6fc94c3e0ff8da1d5808a4d"
+embed = true
+# cpuct 175: +15.5 ± 7.6 over 150 (SPRT, 2026-09-22); 200 was flat against 175.
+search = { cpuct = 175, fpu_reduction = 25, batch = 128 }
