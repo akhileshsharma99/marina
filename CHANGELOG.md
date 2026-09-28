@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/akhileshsharma99/marina/compare/v0.1.0...v0.1.1) (2026-09-27)
+
+
+### Bug Fixes
+
+* **marina:** release uploads are safe to re-run; game files named for the engine
+
 ## 0.1.0 (2026-09-24)
 
 Initial release.

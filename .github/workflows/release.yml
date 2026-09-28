@@ -96,9 +96,28 @@ jobs:
           bin="target/${{ matrix.target }}/release/marina"
           [ -f "$bin" ] || bin="$bin.exe"
           cp "$bin" "${{ matrix.asset }}"
-          sha256sum "${{ matrix.asset }}" > "${{ matrix.asset }}.sha256" 2>/dev/null || shasum -a 256 "${{ matrix.asset }}" > "${{ matrix.asset }}.sha256"
-          gh release upload "$TAG" "${{ matrix.asset }}" "${{ matrix.asset }}.sha256" --repo "$GITHUB_REPOSITORY"
+          command -v sha256sum >/dev/null || sha256sum() { shasum -a 256 "$@"; }
+          sha256sum "${{ matrix.asset }}" > "${{ matrix.asset }}.sha256"
+          # Upload unless the release already holds these exact bytes (a re-run of a job that
+          # uploaded before it failed); a different file under the same name is an error,
+          # never an overwrite.
+          upload() {
+            local asset=$1 have
+            have=$(gh release view "$TAG" --repo "$GITHUB_REPOSITORY" --json assets --jq ".assets[] | select(.name==\"$asset\") | .digest // empty")
+            if [ -z "$have" ]; then
+              gh release upload "$TAG" "$asset" --repo "$GITHUB_REPOSITORY"
+            elif [ "$have" = "sha256:$(sha256sum "$asset" | cut -d" " -f1)" ]; then
+              echo "$asset is already on $TAG with these bytes"
+            else
+              echo "$asset is already on $TAG with different bytes; refusing to replace it" >&2
+              exit 1
+            fi
+          }
+          upload "${{ matrix.asset }}"
+          upload "${{ matrix.asset }}.sha256"
+      # Attestations need a public repository; a private dry run must not fail on them.
       - uses: actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a # v3.0.0
+        continue-on-error: true
         with:
           subject-path: ${{ matrix.asset }}
 
@@ -192,7 +211,25 @@ jobs:
           apt-get update && apt-get install -y --no-install-recommends gh
           cp target/release/marina marina-linux-x64-cuda
           sha256sum marina-linux-x64-cuda > marina-linux-x64-cuda.sha256
-          gh release upload "$TAG" marina-linux-x64-cuda marina-linux-x64-cuda.sha256 --repo "$GITHUB_REPOSITORY"
+          # Upload unless the release already holds these exact bytes (a re-run of a job that
+          # uploaded before it failed); a different file under the same name is an error,
+          # never an overwrite.
+          upload() {
+            local asset=$1 have
+            have=$(gh release view "$TAG" --repo "$GITHUB_REPOSITORY" --json assets --jq ".assets[] | select(.name==\"$asset\") | .digest // empty")
+            if [ -z "$have" ]; then
+              gh release upload "$TAG" "$asset" --repo "$GITHUB_REPOSITORY"
+            elif [ "$have" = "sha256:$(sha256sum "$asset" | cut -d" " -f1)" ]; then
+              echo "$asset is already on $TAG with these bytes"
+            else
+              echo "$asset is already on $TAG with different bytes; refusing to replace it" >&2
+              exit 1
+            fi
+          }
+          upload marina-linux-x64-cuda
+          upload marina-linux-x64-cuda.sha256
+      # Attestations need a public repository; a private dry run must not fail on them.
       - uses: actions/attest-build-provenance@977bb373ede98d70efdf65b84cb5f73e068dcc2a # v3.0.0
+        continue-on-error: true
         with:
           subject-path: marina-linux-x64-cuda

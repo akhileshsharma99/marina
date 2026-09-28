@@ -3,18 +3,36 @@
 # each version release alongside the binaries and the networks. The README links point at
 # the version release. Assets are never overwritten: a new match gets a new name.
 
-[games.small-vs-stockfish-17.1-blitz]
-file = "small-vs-stockfish-17.1-blitz.pgn"
+[games.marina-small-vs-stockfish-17.1-blitz]
+file = "marina-small-vs-stockfish-17.1-blitz.pgn"
 sha256 = "058b292a9283fed814edfe6b47de8624c71913d103f33665382ea862689dac13"
 
-[games.nano-vs-stockfish-17.1-blitz]
-file = "nano-vs-stockfish-17.1-blitz.pgn"
+[games.marina-nano-vs-stockfish-17.1-blitz]
+file = "marina-nano-vs-stockfish-17.1-blitz.pgn"
 sha256 = "e32c6f2c05f54f49890791dcf048fbc11bc462a174b0454e3676e8d7db1a8e8e"
 
-[games.small-vs-stockfish-17.1-hyperbullet]
-file = "small-vs-stockfish-17.1-hyperbullet.pgn"
+[games.marina-small-vs-stockfish-17.1-hyperbullet]
+file = "marina-small-vs-stockfish-17.1-hyperbullet.pgn"
 sha256 = "2d6f1255cc754d50df39b07efa6601dfe5c380d2f5ef816f1db8cf5b1a65a970"
 
-[games.nano-vs-stockfish-17.1-hyperbullet]
-file = "nano-vs-stockfish-17.1-hyperbullet.pgn"
+[games.marina-nano-vs-stockfish-17.1-hyperbullet]
+file = "marina-nano-vs-stockfish-17.1-hyperbullet.pgn"
 sha256 = "83d0f8a0c3a84399440bb01fa0c95a9dd01afd86ae98b09ff1f5350acc55c9b5"
+
+# The network alone: one node per move, no search, against Stockfish 17.1 at UCI_Elo levels
+# (calibrated at 2m+1s, so Stockfish plays that clock).
+[games.marina-small-1node-vs-stockfish-17.1-elo2200]
+file = "marina-small-1node-vs-stockfish-17.1-elo2200.pgn"
+sha256 = "cd48a8a3c904e2807cdea54422cf8a6f4e2d7adb1b5e11603d409a872582de05"
+
+[games.marina-small-1node-vs-stockfish-17.1-elo2500]
+file = "marina-small-1node-vs-stockfish-17.1-elo2500.pgn"
+sha256 = "b06ded2c9e4a9995163093d66d2f332093b91ecb8e63441894413bf9198dd8e6"
+
+[games.marina-nano-1node-vs-stockfish-17.1-elo2000]
+file = "marina-nano-1node-vs-stockfish-17.1-elo2000.pgn"
+sha256 = "a3bbab0a15792cef7fc65e873cc97f280eaac6029278e215b1d86d2469673d77"
+
+[games.marina-nano-1node-vs-stockfish-17.1-elo2300]
+file = "marina-nano-1node-vs-stockfish-17.1-elo2300.pgn"
+sha256 = "06f06c5eaee5ee37e8beca5c2f319666ac7f5554850a8773aa8a9f253c12533c"

@@ -2,7 +2,7 @@
 
 # Marina
 
-**A transformer chess engine that gets top-engine strength out of a small network.**
+**A transformer chess engine that gets top-engine strength out of a small network**
 
 [![CI](https://github.com/akhileshsharma99/marina/actions/workflows/ci.yml/badge.svg)](https://github.com/akhileshsharma99/marina/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/akhileshsharma99/marina?logo=github)](https://github.com/akhileshsharma99/marina/releases/latest)
@@ -20,19 +20,30 @@ Matches against Stockfish 17.1 at full strength under CCRL's conditions, 200 gam
 
 | network | result | Elo vs Stockfish 17.1 | CCRL Blitz estimate |
 | --- | --- | --- | --- |
-| `nano` (2.7M) | [0-72-128 (18.0%)](https://github.com/akhileshsharma99/marina/releases/latest/download/nano-vs-stockfish-17.1-blitz.pgn) | -263 ± 39 | 3507 ± 40 |
-| `small` (38M) | [1-142-57 (36.0%)](https://github.com/akhileshsharma99/marina/releases/latest/download/small-vs-stockfish-17.1-blitz.pgn) | -100 ± 24 | 3670 ± 26 |
+| `nano` (2.7M) | [0-72-128 (18.0%)](https://github.com/akhileshsharma99/marina/releases/latest/download/marina-nano-vs-stockfish-17.1-blitz.pgn) | -263 ± 39 | 3507 ± 40 |
+| `small` (38M) | [1-142-57 (36.0%)](https://github.com/akhileshsharma99/marina/releases/latest/download/marina-small-vs-stockfish-17.1-blitz.pgn) | -100 ± 24 | 3670 ± 26 |
 
 **Hyperbullet, 10s+0.1s**
 
 | network | result | Elo vs Stockfish 17.1 |
 | --- | --- | --- |
-| `nano` (2.7M) | [1-49-150 (12.8%)](https://github.com/akhileshsharma99/marina/releases/latest/download/nano-vs-stockfish-17.1-hyperbullet.pgn) | -334 ± 48 |
-| `small` (38M) | [0-104-96 (26.0%)](https://github.com/akhileshsharma99/marina/releases/latest/download/small-vs-stockfish-17.1-hyperbullet.pgn) | -182 ± 31 |
+| `nano` (2.7M) | [1-49-150 (12.8%)](https://github.com/akhileshsharma99/marina/releases/latest/download/marina-nano-vs-stockfish-17.1-hyperbullet.pgn) | -334 ± 48 |
+| `small` (38M) | [0-104-96 (26.0%)](https://github.com/akhileshsharma99/marina/releases/latest/download/marina-small-vs-stockfish-17.1-hyperbullet.pgn) | -182 ± 31 |
 
 Conditions: Stockfish on one thread with Hash 256, 6-man Syzygy tablebases for both sides, one game at a time, colours swapped on every opening. Stockfish runs on one core of a Threadripper 7960X, Marina on an RTX 4090.
 The CCRL estimate is Stockfish 17.1's CCRL Blitz rating (3770 ± 9, single CPU, list of September 21, 2026) plus the measured difference, the two uncertainties combined, and it is an underestimate: CCRL's clock is equivalent to 2m+1s on an Intel i7-4770K, and Stockfish gets the full clock on a much faster core here, so it plays stronger than its listed rating. An official rating needs a CCRL submission.
 Hyperbullet has no CCRL list - it is used for faster testing and iteration.
+
+**The network alone, one node per move**
+
+No search: Marina plays the network's first choice. Stockfish 17.1 with `UCI_LimitStrength` at the level shown, at 2m+1s, the clock its levels are calibrated for. Two levels bracket each network; the raw scores are given because Stockfish's level scale is not CCRL's and each network does relatively better against the stronger level, so a single rating would be false precision. Both engines on one CPU thread each, 6-man Syzygy tablebases for both, 200 games per match, colours swapped on every opening.
+
+| network | Stockfish `UCI_Elo` | result |
+| --- | --- | --- |
+| `nano` (2.7M) | 2000 | [77-28-95 (45.5%)](https://github.com/akhileshsharma99/marina/releases/latest/download/marina-nano-1node-vs-stockfish-17.1-elo2000.pgn) |
+| `nano` (2.7M) | 2300 | [42-35-123 (29.8%)](https://github.com/akhileshsharma99/marina/releases/latest/download/marina-nano-1node-vs-stockfish-17.1-elo2300.pgn) |
+| `small` (38M) | 2200 | [116-35-49 (66.8%)](https://github.com/akhileshsharma99/marina/releases/latest/download/marina-small-1node-vs-stockfish-17.1-elo2200.pgn) |
+| `small` (38M) | 2500 | [75-42-83 (48.0%)](https://github.com/akhileshsharma99/marina/releases/latest/download/marina-small-1node-vs-stockfish-17.1-elo2500.pgn) |
 
 ## Getting started
 
@@ -105,7 +116,7 @@ The search options (`Batch` through `InFlight`) are tuned by SPRT; their default
 
 - [Lichess](https://database.lichess.org/#evals) for the evaluation database the networks are trained on, and [Syzygy](https://syzygy-tables.info) tablebases for exact endgame labels
 - [shakmaty](https://github.com/niklasf/shakmaty) and [shakmaty-syzygy](https://github.com/niklasf/shakmaty-syzygy) for move generation and tablebase probing
-- [Reckless](https://github.com/codedeliveryservice/Reckless) and [Stockfish](https://github.com/official-stockfish/Stockfish), the opponents every change is measured against
+- [Stockfish](https://github.com/official-stockfish/Stockfish), the opponent the engine is measured against
 - [fastchess](https://github.com/Disservin/fastchess) for running the matches, and the opening book from [official-stockfish/books](https://github.com/official-stockfish/books)
 - [Leela Chess Zero](https://lczero.org) and [AlphaZero](https://www.science.org/doi/10.1126/science.aar6404) for the search this engine builds on
 
